@@ -1,11 +1,9 @@
-## My Project
+## FreeRTOS/FreeRTOS Long Term Support
 
-TODO: Fill this README out!
+This repository is the home of the FreeRTOS/FreeRTOS Long Term Support (LTS) releases.
+Each release is an independent branch on the main repo.  The "default" branch will be kept pointing to the most recent LTS release.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+The most up-to-date version of FreeRTOS/FreeRTOS can be found in the development repo: http://github.com/FreeRTOS/FreeRTOS
 
 ## Security
 
