@@ -1,0 +1,51 @@
+name : "FreeRTOS Classic"
+version: "202012.00"
+description: |-
+  "'Classic' FreeRTOS distribution. Started as Git clone of FreeRTOS SourceForge SVN repo."
+dependencies:
+  - name: "FreeRTOS-Kernel"
+    version: "10.4.3"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
+  - name: "FreeRTOS-Plus-TCP"
+    version: "2.3.2"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP.git"
+  - name: "coreJSON"
+    version: "3.0.0"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/coreJSON.git"
+  - name: "coreHTTP"
+    version: "1.0.1"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/coreHTTP.git"
+  - name: "coreMQTT"
+    version: "1.0.2"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/coreMQTT.git"
+  - name: "corePKCS11"
+    version: "3.0.0"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/corePKCS11.git"
+  - name: "device-defender"
+    version: "1.0.1"
+    repository:
+      type: "git"
+      url: "https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk.git"
+  - name: "device-shadow"
+    version: "1.0.2"
+    repository:
+      type: "git"
+      url: "https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk.git"
+  - name: "jobs"
+    version: "1.0.1"
+    repository:
+      type: "git"
+      url: "https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk.git"
+license: "MIT"
