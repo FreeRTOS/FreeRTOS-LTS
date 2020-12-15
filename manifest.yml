@@ -33,19 +33,9 @@ dependencies:
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/corePKCS11.git"
-  - name: "device-defender"
-    version: "1.0.1"
-    repository:
-      type: "git"
-      url: "https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk.git"
   - name: "device-shadow"
     version: "1.0.2"
     repository:
       type: "git"
       url: "https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk.git"
-  - name: "jobs"
-    version: "1.0.1"
-    repository:
-      type: "git"
-      url: "https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk.git"
 license: "MIT"
