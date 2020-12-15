@@ -1,7 +1,7 @@
-name : "FreeRTOS Classic"
-version: "202012.00"
+name : "FreeRTOS-LTS"
+version: "202012.00-LTS"
 description: |-
-  "'Classic' FreeRTOS distribution. Started as Git clone of FreeRTOS SourceForge SVN repo."
+  "Hub Repo for FreeRTOS Long Term Support kernel and libraries"
 dependencies:
   - name: "FreeRTOS-Kernel"
     version: "V10.4.3"
