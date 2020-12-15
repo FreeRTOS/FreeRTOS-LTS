@@ -1,5 +1,7 @@
 ## FreeRTOS/FreeRTOS Long Term Support
 
+Libraries in this GitHub branch (also listed below) are part of the FreeRTOS 202012.00 LTS (https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012.00_LTS) release. Learn more at https://freertos.org/lts-libraries.html. 
+
 | Library               | Version | LTS Until  | LTS Repo URL.                                                             |
 |-----------------------|---------|------------|---------------------------------------------------------------------------|
 | FreeRTOS Kernel       | 10.4.3  | 12/31/2022 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3                  |
