@@ -1,6 +1,7 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to our project. This is a closed repo so all contributors are directed to the development repo at http://github.com/FreeRTOS/FreeRTOS.  New Features will NOT be accepted on this repo.  Please direct feature requests to the development repo.  Most issues will be addressed as part of the LTS.  Please report issues on LTS releases in this repo.
+This is a closed hub repo consisting of submodules.  If you have issues to report or features to suggest, please contribute to the repo identified by the appropriate submodule.
+
 
 ## Code of Conduct
 This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
