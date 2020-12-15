@@ -1,9 +1,6 @@
 ## FreeRTOS/FreeRTOS Long Term Support
 
-This repository is the home of the FreeRTOS/FreeRTOS Long Term Support (LTS) releases.
-Each release is an independent branch on the main repo.  The "default" branch will be kept pointing to the most recent LTS release.
-
-The most up-to-date version of FreeRTOS/FreeRTOS can be found in the development repo: http://github.com/FreeRTOS/FreeRTOS
+Libraries in this GitHub branch (also listed below) are part of the FreeRTOS 202012.00 LTS (https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012.00_LTS) release. Learn more at https://freertos.org/lts-libraries.html. 
 
 ## Security
 
