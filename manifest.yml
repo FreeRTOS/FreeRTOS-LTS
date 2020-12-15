@@ -4,37 +4,37 @@ description: |-
   "'Classic' FreeRTOS distribution. Started as Git clone of FreeRTOS SourceForge SVN repo."
 dependencies:
   - name: "FreeRTOS-Kernel"
-    version: "10.4.3"
+    version: "V10.4.3"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
   - name: "FreeRTOS-Plus-TCP"
-    version: "2.3.2"
+    version: "V2.3.2"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP.git"
   - name: "coreJSON"
-    version: "3.0.0"
+    version: "V3.0.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/coreJSON.git"
   - name: "coreHTTP"
-    version: "1.0.1"
+    version: "v2.0.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/coreHTTP.git"
   - name: "coreMQTT"
-    version: "1.0.2"
+    version: "v1.1.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/coreMQTT.git"
   - name: "corePKCS11"
-    version: "3.0.0"
+    version: "v3.0.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/corePKCS11.git"
   - name: "device-shadow"
-    version: "1.0.2"
+    version: "v1.0.2"
     repository:
       type: "git"
       url: "https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk.git"
