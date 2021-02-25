@@ -21,7 +21,7 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 
 ## FreeRTOS LTS Versioning and Patches
 
-FreeRTOS LTS releases use a date-based versioning scheme (YYYYMM) followed by a patch sequential number (.XX). For example, FreeRTOS 202012.02 LTS means the second patch to the December-2020 FreeRTOS LTS release. You can subscribe to [GitHub notifications](https://docs.github.com/en/free-pro-team@latest/github/managing-subscriptions-and-notifications-on-github/about-notifications) to receive information on patches or other updates to this repository.   
+FreeRTOS LTS releases use a date-based versioning scheme (YYYYMM) followed by a patch sequential number (.XX). For example, FreeRTOS 202012.02 LTS means the second patch to the December-2020 FreeRTOS LTS release. You can review the [CHANGELOG](./CHANGELOG.md) and subscribe to [GitHub notifications](https://docs.github.com/en/free-pro-team@latest/github/managing-subscriptions-and-notifications-on-github/about-notifications) to receive information on patches or other updates to this repository.   
 
 ## Security
 
