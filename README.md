@@ -17,7 +17,7 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 | AWS IoT Device Shadow       | 1.0.2   | 12/31/2022 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.0.2   |
 | AWS IoT Device Defender     | 1.1.0   | 12/31/2022 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.1.0 |
 | AWS IoT Jobs                | 1.1.0   | 12/31/2022 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.1.0            |
-| AWS IoT Over-the-air Update | 2.1.0   | 12/31/2022 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v2.1.0             |
+| AWS IoT Over-the-air Update | 3.0.0   | 12/31/2022 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.0.0             |
 
 ## FreeRTOS LTS Versioning and Patches
 
