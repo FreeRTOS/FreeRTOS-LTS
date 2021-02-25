@@ -61,6 +61,11 @@ jobs:
           unzip FreeRTOS-LTS-${{ github.event.inputs.version_number }}.zip -d FreeRTOS-LTS-${{ github.event.inputs.version_number }}
           ls FreeRTOS-LTS-${{ github.event.inputs.version_number }}
           diff -r -x "*.git*" FreeRTOS-LTS-${{ github.event.inputs.version_number }}/FreeRTOS-LTS/ ../FreeRTOS-LTS/
+      - name: Create artifact of ZIP
+        uses: actions/upload-artifact@v2
+        with:
+          name: FreeRTOS-LTS-${{ github.event.inputs.version_number }}.zip
+          path: zip-check/FreeRTOS-LTS-${{ github.event.inputs.version_number }}.zip
   create-release:
     needs: create-zip
     name: Create Release and Upload Release Asset
