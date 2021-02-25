@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       commit_id:
-        description: 'Commit ID to tag and create a release for'
+        description: 'Commit ID/branch to tag and create a release for'
         required: true
       version_number:
         description: 'Release Version (Eg, 202012.00-LTS)'
