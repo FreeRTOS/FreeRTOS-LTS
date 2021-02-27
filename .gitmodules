@@ -25,7 +25,18 @@
 	path = FreeRTOS/backoffAlgorithm
 	branch = main
 	url = https://github.com/FreeRTOS/backoffAlgorithm.git
-
 [submodule "FreeRTOS/FreeRTOS-Kernel"]
 	path = FreeRTOS/FreeRTOS-Kernel
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "aws/jobs-for-aws-iot-embedded-sdk"]
+	path = aws/jobs-for-aws-iot-embedded-sdk
+	branch = main
+	url = https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk.git
+[submodule "aws/device-defender-for-aws-iot-embedded-sdk"]
+	path = aws/device-defender-for-aws-iot-embedded-sdk
+	branch = main
+	url = https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk.git
+[submodule "aws/ota-for-aws-iot-embedded-sdk"]
+	path = aws/ota-for-aws-iot-embedded-sdk
+	branch = main
+	url = https://github.com/aws/ota-for-aws-iot-embedded-sdk.git
