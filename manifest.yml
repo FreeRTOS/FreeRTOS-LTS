@@ -1,15 +1,15 @@
 name : "FreeRTOS-LTS"
-version: "202012.00-LTS"
+version: "202012.02-LTS"
 description: |-
   "Hub Repo for FreeRTOS Long Term Support kernel and libraries"
 dependencies:
   - name: "FreeRTOS-Kernel"
-    version: "V10.4.3"
+    version: "V10.4.3-LTS-Patch-1"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
   - name: "FreeRTOS-Plus-TCP"
-    version: "V2.3.2"
+    version: "V2.3.2-LTS-Patch-1"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP.git"
