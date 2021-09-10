@@ -3,7 +3,7 @@ FreeRTOS offers feature stability with long term support (LTS) releases. FreeRTO
 
 ## FreeRTOS/FreeRTOS Long Term Support
 
-Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202012.02 LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012-LTS) release. Learn more at https://freertos.org/lts-libraries.html.
+Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202012.02 LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012-LTS) patch release. Learn more at https://freertos.org/lts-libraries.html.
 
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                |
 |-------------------------    |---------------------|------------|---------------------------------------------------------------------------  |
