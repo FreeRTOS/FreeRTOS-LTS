@@ -1,5 +1,9 @@
 # ChangeLog for FreeRTOS 202012-LTS
 
+## 202012.03-LTS (November 2021)
+Update the following libraries in the Long Term Support (LTS) patch release:
+* [FreeRTOS-Kernel V10.4.3 LTS Patch 2](https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3-LTS-Patch-2)
+
 ## 202012.02-LTS (September 2021)
 Update the following libraries in the Long Term Support (LTS) patch release:
 * [FreeRTOS-Kernel V10.4.3 LTS Patch 1](https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3-LTS-Patch-1)
