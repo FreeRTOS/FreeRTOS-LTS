@@ -3,11 +3,11 @@ FreeRTOS offers feature stability with long term support (LTS) releases. FreeRTO
 
 ## FreeRTOS/FreeRTOS Long Term Support
 
-Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202012.02 LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012-LTS) patch release. Learn more at https://freertos.org/lts-libraries.html.
+Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202012.03 LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012-LTS) patch release. Learn more at https://freertos.org/lts-libraries.html.
 
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                |
 |-------------------------    |---------------------|------------|---------------------------------------------------------------------------  |
-| FreeRTOS Kernel             | 10.4.3-LTS-Patch-1  | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3-LTS-Patch-1        |
+| FreeRTOS Kernel             | 10.4.3-LTS-Patch-2  | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3-LTS-Patch-2        |
 | FreeRTOS-Plus-TCP           | 2.3.2-LTS-Patch-1   | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V2.3.2-LTS-Patch-1       |
 | coreMQTT                    | 1.1.0               | 03/31/2023 | https://github.com/FreeRTOS/coreMQTT/tree/v1.1.0                            |
 | coreHTTP                    | 2.0.0               | 03/31/2023 | https://github.com/FreeRTOS/coreHTTP/tree/v2.0.0                            |
