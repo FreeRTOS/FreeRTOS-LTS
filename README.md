@@ -5,11 +5,11 @@ AWS also offers FreeRTOS Extended Maintenance Plan (EMP) that provides you with 
 
 ## FreeRTOS/FreeRTOS Long Term Support
 
-Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202012.04 LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012-LTS) patch release. Learn more at https://freertos.org/lts-libraries.html.
+Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202012.05 LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012-LTS) patch release. Learn more at https://freertos.org/lts-libraries.html.
 
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                |
 |-------------------------    |---------------------|------------|---------------------------------------------------------------------------  |
-| FreeRTOS Kernel             | 10.4.3-LTS-Patch-2  | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3-LTS-Patch-2        |
+| FreeRTOS Kernel             | 10.4.3-LTS-Patch-3  | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3-LTS-Patch-3        |
 | FreeRTOS-Plus-TCP           | 2.3.2-LTS-Patch-2   | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V2.3.2-LTS-Patch-2       |
 | coreMQTT                    | 1.1.0               | 03/31/2023 | https://github.com/FreeRTOS/coreMQTT/tree/v1.1.0                            |
 | coreHTTP                    | 2.0.0               | 03/31/2023 | https://github.com/FreeRTOS/coreHTTP/tree/v2.0.0                            |
