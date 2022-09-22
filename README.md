@@ -9,17 +9,17 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                |
 |-------------------------    |---------------------|------------|---------------------------------------------------------------------------  |
-| FreeRTOS Kernel             | 10.5.0              | 09/30/2024 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.5.0                    |
-| FreeRTOS-Plus-TCP           | 3.0.0               | 09/30/2024 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V3.0.0                   |
-| coreMQTT                    | 2.0.0               | 09/30/2024 | https://github.com/FreeRTOS/coreMQTT/tree/v2.0.0                            |
-| coreHTTP                    | 3.0.0               | 09/30/2024 | https://github.com/FreeRTOS/coreHTTP/tree/v3.0.0                            |
-| corePKCS11                  | 3.5.0               | 09/30/2024 | https://github.com/FreeRTOS/corePKCS11/tree/v3.5.0                          |
-| coreJSON                    | 3.2.0               | 09/30/2024 | https://github.com/FreeRTOS/coreJSON/tree/v3.2.0                            |
-| backoffAlgorithm            | 1.3.0               | 09/30/2024 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.3.0                    |
-| AWS IoT Device Shadow       | 1.3.0               | 09/30/2024 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.3.0   |
-| AWS IoT Device Defender     | 1.3.0               | 09/30/2024 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.3.0 |
-| AWS IoT Jobs                | 1.3.0               | 09/30/2024 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.3.0            |
-| AWS IoT Over-the-air Update | 3.4.0               | 09/30/2024 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.4.0             |
+| FreeRTOS Kernel             | 10.5.0              | 09/30/2025 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.5.0                    |
+| FreeRTOS-Plus-TCP           | 3.0.0               | 09/30/2025 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V3.0.0                   |
+| coreMQTT                    | 2.0.0               | 09/30/2025 | https://github.com/FreeRTOS/coreMQTT/tree/v2.0.0                            |
+| coreHTTP                    | 3.0.0               | 09/30/2025 | https://github.com/FreeRTOS/coreHTTP/tree/v3.0.0                            |
+| corePKCS11                  | 3.5.0               | 09/30/2025 | https://github.com/FreeRTOS/corePKCS11/tree/v3.5.0                          |
+| coreJSON                    | 3.2.0               | 09/30/2025 | https://github.com/FreeRTOS/coreJSON/tree/v3.2.0                            |
+| backoffAlgorithm            | 1.3.0               | 09/30/2025 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.3.0                    |
+| AWS IoT Device Shadow       | 1.3.0               | 09/30/2025 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.3.0   |
+| AWS IoT Device Defender     | 1.3.0               | 09/30/2025 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.3.0 |
+| AWS IoT Jobs                | 1.3.0               | 09/30/2025 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.3.0            |
+| AWS IoT Over-the-air Update | 3.4.0               | 09/30/2025 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.4.0             |
 
 ## FreeRTOS LTS Versioning and Patches
 
