@@ -1,0 +1,98 @@
+name: Release automation
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_id:
+        description: 'Commit ID/branch to tag and create a release for'
+        required: true
+      version_number:
+        description: 'Release Version (Eg, 202012.00-LTS)'
+        required: true
+
+jobs:
+  tag-commit:
+    name: Tag commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.inputs.commit_id }}
+      - name: Configure git identity
+        run: |
+            git config --global user.name "Release Workflow"
+      - name: Tag Commit and Push to remote
+        run: |
+          git tag ${{ github.event.inputs.version_number }} -a -m "Release ${{ github.event.inputs.version_number }}"
+          git push origin --tags
+      - name: Verify tag on remote
+        run: |
+          git tag -d ${{ github.event.inputs.version_number }}
+          git remote update
+          git checkout tags/${{ github.event.inputs.version_number }}
+          git diff ${{ github.event.inputs.commit_id }} tags/${{ github.event.inputs.version_number }}
+  create-zip:
+    needs: tag-commit
+    name: Create ZIP and verify package for release asset.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install ZIP tools
+        run: sudo apt-get install zip unzip
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.inputs.commit_id }}
+          path: FreeRTOS-LTS
+          submodules: recursive
+      - name: Checkout disabled submodules
+        run: |
+          cd FreeRTOS-LTS
+          git submodule update --init --checkout --recursive
+      - name: Create ZIP
+        run: |
+          zip -r FreeRTOSv${{ github.event.inputs.version_number }}.zip FreeRTOS-LTS -x "*.git*"
+          ls ./
+      - name: Validate created ZIP
+        run: |
+          mkdir zip-check
+          mv FreeRTOSv${{ github.event.inputs.version_number }}.zip zip-check
+          cd zip-check
+          unzip FreeRTOSv${{ github.event.inputs.version_number }}.zip -d FreeRTOSv${{ github.event.inputs.version_number }}
+          ls FreeRTOSv${{ github.event.inputs.version_number }}
+          diff -r -x "*.git*" FreeRTOSv${{ github.event.inputs.version_number }}/FreeRTOS-LTS/ ../FreeRTOS-LTS/
+      - name: Create artifact of ZIP
+        uses: actions/upload-artifact@v2
+        with:
+          name: FreeRTOSv${{ github.event.inputs.version_number }}.zip
+          path: zip-check/FreeRTOSv${{ github.event.inputs.version_number }}.zip
+  create-release:
+    needs: create-zip
+    name: Create Release and Upload Release Asset
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.inputs.version_number }}
+          release_name: ${{ github.event.inputs.version_number }}
+          body: ${{ github.event.inputs.version_number }} Release
+          draft: false
+          prerelease: false
+      - name: Download ZIP artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: FreeRTOSv${{ github.event.inputs.version_number }}.zip
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./FreeRTOSv${{ github.event.inputs.version_number }}.zip
+          asset_name: FreeRTOSv${{ github.event.inputs.version_number }}.zip
+          asset_content_type: application/zip

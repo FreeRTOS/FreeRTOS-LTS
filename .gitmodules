@@ -1,0 +1,42 @@
+[submodule "coreMQTT"]
+	path = FreeRTOS/coreMQTT
+	branch = main
+	url = https://github.com/FreeRTOS/coreMQTT.git
+[submodule "coreHTTP"]
+	path = FreeRTOS/coreHTTP
+	branch = main
+	url = https://github.com/FreeRTOS/coreHTTP.git
+[submodule "coreJSON"]
+	path = FreeRTOS/coreJSON
+	branch = main
+	url = https://github.com/FreeRTOS/coreJSON.git
+[submodule "corePKCS11"]
+	path = FreeRTOS/corePKCS11
+	branch = main
+	url = https://github.com/FreeRTOS/corePKCS11.git
+[submodule "device-shadow-for-aws-iot-embedded-sdk"]
+	path = aws/device-shadow-for-aws-iot-embedded-sdk
+	branch = main
+	url = https://github.com/aws/device-shadow-for-aws-iot-embedded-sdk.git
+[submodule "FreeRTOS-Plus-TCP"]
+	path = FreeRTOS/FreeRTOS-Plus-TCP
+	url = https://github.com/FreeRTOS/FreeRTOS-Plus-TCP
+[submodule "backoffAlgorithm"]
+	path = FreeRTOS/backoffAlgorithm
+	branch = main
+	url = https://github.com/FreeRTOS/backoffAlgorithm.git
+[submodule "FreeRTOS/FreeRTOS-Kernel"]
+	path = FreeRTOS/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "aws/jobs-for-aws-iot-embedded-sdk"]
+	path = aws/jobs-for-aws-iot-embedded-sdk
+	branch = main
+	url = https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk.git
+[submodule "aws/device-defender-for-aws-iot-embedded-sdk"]
+	path = aws/device-defender-for-aws-iot-embedded-sdk
+	branch = main
+	url = https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk.git
+[submodule "aws/ota-for-aws-iot-embedded-sdk"]
+	path = aws/ota-for-aws-iot-embedded-sdk
+	branch = main
+	url = https://github.com/aws/ota-for-aws-iot-embedded-sdk.git

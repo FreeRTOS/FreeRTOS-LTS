@@ -1,18 +1,6 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to our project. This is a closed repo so all contributors are directed to the development repo at http://github.com/FreeRTOS/FreeRTOS.  New Features will NOT be accepted on this repo.  Please direct feature requests to the development repo.  Most issues will be addressed as part of the LTS.  Please report issues on LTS releases in this repo.
-
-## Reporting Bugs/Feature Requests
-
-We welcome you to use the GitHub issue tracker to report bugs or suggest features.
-
-When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
-reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
-
-* A reproducible test case or series of steps
-* The version of our code being used
-* Any modifications you've made relevant to the bug
-* Anything unusual about your environment or deployment
+This is a closed hub repo consisting of submodules.  If you have issues to report or features to suggest, please contribute to the repo identified by the appropriate submodule.
 
 
 ## Code of Conduct
