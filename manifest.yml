@@ -47,7 +47,7 @@ dependencies:
     version: "v1.2.0"
     repository:
       type: "git"
-      url: "https://github.com/FreeRTOS/SigV4-for-AWS-IoT-embedded-sdk.git"
+      url: "https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk.git"
   - name: "backoffAlgorithm"
     version: "v1.3.0"
     repository:
