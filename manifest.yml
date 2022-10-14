@@ -1,60 +1,80 @@
 name : "FreeRTOS-LTS"
-version: "202012.05-LTS"
+version: "202210.00-LTS"
 description: |-
   "Hub Repo for FreeRTOS Long Term Support kernel and libraries"
 dependencies:
   - name: "FreeRTOS-Kernel"
-    version: "V10.4.3-LTS-Patch-3"
+    version: "V10.5.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
   - name: "FreeRTOS-Plus-TCP"
-    version: "V2.3.2-LTS-Patch-2"
+    version: "V3.1.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP.git"
   - name: "coreJSON"
-    version: "V3.0.0"
+    version: "V3.2.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/coreJSON.git"
   - name: "coreHTTP"
-    version: "v2.0.0"
+    version: "v3.0.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/coreHTTP.git"
   - name: "coreMQTT"
-    version: "v1.1.0"
+    version: "v2.1.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/coreMQTT.git"
   - name: "corePKCS11"
-    version: "v3.0.0"
+    version: "v3.5.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/corePKCS11.git"
+  - name: "coreSNTP"
+    version: "v1.2.0"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/coreSNTP.git"
+  - name: "Cellular Interface"
+    version: "v1.3.0"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface.git"
+  - name: "SigV4"
+    version: "v1.2.0"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/SigV4-for-AWS-IoT-embedded-sdk.git"
+  - name: "backoffAlgorithm"
+    version: "v1.3.0"
+    repository:
+      type: "git"
+      url: "https://github.com/FreeRTOS/backoffAlgorithm.git"
   - name: "device-shadow"
-    version: "v1.0.2"
+    version: "v1.3.0"
     repository:
       type: "git"
       url: "https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk.git"
-  - name: "backoffAlgorithm"
-    version: "v1.0.0"
-    repository:
-      type: "git"
-      url: "https://github.com/FreeRTOS/backoffAlgorithm"
   - name: "device-defender"
-    version: "v1.1.0"
+    version: "v1.3.0"
     repository:
       type: "git"
       url: "https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk.git"
   - name: "jobs"
-    version: "v1.1.0"
+    version: "v1.3.0"
     repository:
       type: "git"
       url: "https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk.git"
+  - name: "fleet-provisioning"
+    version: "v1.1.0"
+    repository:
+      type: "git"
+      url: "https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk.git"
   - name: "ota"
-    version: "v3.0.0"
+    version: "v3.4.0"
     repository:
       type: "git"
       url: "https://github.com/aws/ota-for-AWS-IoT-embedded-sdk.git"
