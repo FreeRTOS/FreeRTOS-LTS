@@ -11,7 +11,7 @@ Long Term Support (LTS) release of the following libraries:
 * [coreJSON v3.2.0](https://github.com/FreeRTOS/coreJSON/tree/v3.2.0)
 * [coreSNTP v1.2.0](https://github.com/FreeRTOS/coreSNTP/tree/v1.2.0)
 * [Cellular Interface v1.3.0](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.3.0)
-* [SigV4 v1.2.0](https://github.com/FreeRTOS/SigV4-for-AWS-IoT-embedded-sdk/tree/v1.2.0)
+* [SigV4 v1.2.0](https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk/tree/v1.2.0)
 * [backoffAlgorithm v1.3.0](https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.3.0)
 * [AWS IoT Device Shadow v1.3.0](https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.3.0)
 * [AWS IoT Device Defender v1.3.0](https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.3.0)
