@@ -2,10 +2,10 @@
 
 ## 202210.01-LTS (November 2022)
 Update the following libraries in the Long Term Support (LTS) patch release:
- * [FreeRTOS-Kernel V10.5.1](https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.5.1)
- * [coreMQTT v2.1.1](https://github.com/FreeRTOS/coreMQTT/tree/v2.1.1)
- * [Cellular Interface v1.3.1](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.3.1)
- * [AWS IoT Over-the-air Update v3.4.1](https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.4.1)
+ * [FreeRTOS-Kernel V10.5.1](https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/V10.5.1/History.txt)
+ * [coreMQTT v2.1.1](https://github.com/FreeRTOS/coreMQTT/blob/v2.1.1/CHANGELOG.md)
+ * [Cellular Interface v1.3.1](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/blob/v1.3.1/CHANGELOG.md)
+ * [AWS IoT Over-the-air Update v3.4.1](https://github.com/aws/ota-for-aws-iot-embedded-sdk/blob/v3.4.1/CHANGELOG.md)
 
 ## 202210.00-LTS (October 2022)
 
