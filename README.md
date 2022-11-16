@@ -9,9 +9,9 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                |
 |-------------------------    |---------------------|------------|---------------------------------------------------------------------------  |
-| FreeRTOS Kernel             | 10.5.0              | 10/31/2024 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.5.0                        |
+| FreeRTOS Kernel             | 10.5.1              | 10/31/2024 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.5.1                        |
 | FreeRTOS-Plus-TCP           | 3.1.0               | 10/31/2024 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V3.1.0                       |
-| coreMQTT                    | 2.1.0               | 10/31/2024 | https://github.com/FreeRTOS/coreMQTT/tree/v2.1.0                                |
+| coreMQTT                    | 2.1.1               | 10/31/2024 | https://github.com/FreeRTOS/coreMQTT/tree/v2.1.1                                |
 | coreHTTP                    | 3.0.0               | 10/31/2024 | https://github.com/FreeRTOS/coreHTTP/tree/v3.0.0                                |
 | corePKCS11                  | 3.5.0               | 10/31/2024 | https://github.com/FreeRTOS/corePKCS11/tree/v3.5.0                              |
 | coreJSON                    | 3.2.0               | 10/31/2024 | https://github.com/FreeRTOS/coreJSON/tree/v3.2.0                                |
@@ -23,7 +23,7 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 | AWS IoT Device Defender     | 1.3.0               | 10/31/2024 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.3.0     |
 | AWS IoT Jobs                | 1.3.0               | 10/31/2024 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.3.0                |
 | AWS IoT Fleet Provisioning  | 1.1.0               | 10/31/2024 | https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk/tree/v1.1.0  |
-| AWS IoT Over-the-air Update | 3.4.0               | 10/31/2024 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.4.0                 |
+| AWS IoT Over-the-air Update | 3.4.1               | 10/31/2024 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.4.1                 |
 
 ## Upgrading to FreeRTOS 202210-LTS from a previous version of FreeRTOS LTS
 
