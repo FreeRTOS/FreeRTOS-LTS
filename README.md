@@ -16,7 +16,7 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 | corePKCS11                  | 3.5.0               | 10/31/2024 | https://github.com/FreeRTOS/corePKCS11/tree/v3.5.0                              |
 | coreJSON                    | 3.2.0               | 10/31/2024 | https://github.com/FreeRTOS/coreJSON/tree/v3.2.0                                |
 | coreSNTP                    | 1.2.0               | 10/31/2024 | https://github.com/FreeRTOS/coreSNTP/tree/v1.2.0                                |
-| Cellular Interface          | 1.3.0               | 10/31/2024 | https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.3.0             |
+| Cellular Interface          | 1.3.1               | 10/31/2024 | https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.3.1             |
 | backoffAlgorithm            | 1.3.0               | 10/31/2024 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.3.0                        |
 | SigV4                       | 1.2.0               | 10/31/2024 | https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk/tree/v1.2.0               |
 | AWS IoT Device Shadow       | 1.3.0               | 10/31/2024 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.3.0       |
