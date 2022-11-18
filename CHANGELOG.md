@@ -1,5 +1,10 @@
 # ChangeLog for FreeRTOS 202210-LTS
 
+## 202210.01-LTS (November 2022)
+Update the following libraries in the Long Term Support (LTS) patch release:
+ * [FreeRTOS-Kernel V10.5.1](https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/V10.5.1/History.txt)
+ * [coreMQTT v2.1.1](https://github.com/FreeRTOS/coreMQTT/blob/v2.1.1/CHANGELOG.md)
+
 ## 202210.00-LTS (October 2022)
 
 Long Term Support (LTS) release of the following libraries:
