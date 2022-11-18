@@ -16,14 +16,14 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 | corePKCS11                  | 3.5.0               | 10/31/2024 | https://github.com/FreeRTOS/corePKCS11/tree/v3.5.0                              |
 | coreJSON                    | 3.2.0               | 10/31/2024 | https://github.com/FreeRTOS/coreJSON/tree/v3.2.0                                |
 | coreSNTP                    | 1.2.0               | 10/31/2024 | https://github.com/FreeRTOS/coreSNTP/tree/v1.2.0                                |
-| Cellular Interface          | 1.3.1               | 10/31/2024 | https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.3.1             |
+| Cellular Interface          | 1.3.0               | 10/31/2024 | https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.3.0             |
 | backoffAlgorithm            | 1.3.0               | 10/31/2024 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.3.0                        |
 | SigV4                       | 1.2.0               | 10/31/2024 | https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk/tree/v1.2.0               |
 | AWS IoT Device Shadow       | 1.3.0               | 10/31/2024 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.3.0       |
 | AWS IoT Device Defender     | 1.3.0               | 10/31/2024 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.3.0     |
 | AWS IoT Jobs                | 1.3.0               | 10/31/2024 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.3.0                |
 | AWS IoT Fleet Provisioning  | 1.1.0               | 10/31/2024 | https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk/tree/v1.1.0  |
-| AWS IoT Over-the-air Update | 3.4.1               | 10/31/2024 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.4.1                 |
+| AWS IoT Over-the-air Update | 3.4.0               | 10/31/2024 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.4.0                 |
 
 ## Upgrading to FreeRTOS 202210-LTS from a previous version of FreeRTOS LTS
 
