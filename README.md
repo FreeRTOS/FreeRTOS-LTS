@@ -23,7 +23,7 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 | AWS IoT Device Defender     | 1.4.0               | 06/30/2026 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.4.0     |
 | AWS IoT Jobs                | 1.5.1               | 06/30/2026 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.5.1                |
 | AWS IoT Fleet Provisioning  | 1.2.1               | 06/30/2026 | https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk/tree/v1.2.1  |
-| AWS IoT MQTT File Streams   | 1.1.0               | 06/30/2026 | https://github.com/aws/aws-iot-core-mqtt-file-streams-embedded-c/tree/v3.4.0    |
+| AWS IoT MQTT File Streams   | 1.1.0               | 06/30/2026 | https://github.com/aws/aws-iot-core-mqtt-file-streams-embedded-c/tree/v1.1.0    |
 
 ## Upgrading to FreeRTOS 202406-LTS from a previous version of FreeRTOS LTS
 
