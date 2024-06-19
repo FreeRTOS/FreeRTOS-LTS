@@ -27,7 +27,8 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 
 ## Upgrading to FreeRTOS 202406-LTS from a previous version of FreeRTOS LTS
 
-Refer to https://freertos.org/lts-libraries.html on how to upgrade to FreeRTOS 202406 LTS
+FreeRTOS 202406 LTS libraries are backward compatible with 202210.xx LTS, except
+AWS IoT OTA libraries. For AWS IoT OTA, refer to [Modular Over the Air Updates](https://freertos.org/freertos-core/over-the-air-updates/index.html).
 
 ## FreeRTOS LTS Versioning and Patches
 
