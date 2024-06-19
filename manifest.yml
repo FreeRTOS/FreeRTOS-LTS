@@ -1,5 +1,5 @@
 name : "FreeRTOS-LTS"
-version: "202210.00-LTS"
+version: "202406.00-LTS"
 description: |-
   "Hub Repo for FreeRTOS Long Term Support kernel and libraries"
 dependencies:
