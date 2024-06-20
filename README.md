@@ -9,21 +9,21 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                    |
 |-------------------------    |---------------------|------------|-------------------------------------------------------------------------------  |
-| FreeRTOS Kernel             | 11.1.0              | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0                        |
-| FreeRTOS-Plus-TCP           | 4.1.1               | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.1.1                       |
-| coreMQTT                    | 2.3.0               | 06/30/2026 | https://github.com/FreeRTOS/coreMQTT/tree/v2.3.0                                |
-| coreHTTP                    | 3.1.0               | 06/30/2026 | https://github.com/FreeRTOS/coreHTTP/tree/v3.1.1                                |
-| corePKCS11                  | 3.6.1               | 06/30/2026 | https://github.com/FreeRTOS/corePKCS11/tree/v3.6.1                              |
-| coreJSON                    | 3.3.0               | 06/30/2026 | https://github.com/FreeRTOS/coreJSON/tree/v3.3.0                                |
-| coreSNTP                    | 1.3.1               | 06/30/2026 | https://github.com/FreeRTOS/coreSNTP/tree/v1.3.1                                |
-| Cellular Interface          | 1.4.0               | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.4.0             |
-| backoffAlgorithm            | 1.4.1               | 06/30/2026 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.4.1                        |
-| SigV4                       | 1.3.0               | 06/30/2026 | https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk/tree/v1.3.0               |
-| AWS IoT Device Shadow       | 1.4.1               | 06/30/2026 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.4.1       |
-| AWS IoT Device Defender     | 1.4.0               | 06/30/2026 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.4.0     |
-| AWS IoT Jobs                | 1.5.1               | 06/30/2026 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.5.1                |
-| AWS IoT Fleet Provisioning  | 1.2.1               | 06/30/2026 | https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk/tree/v1.2.1  |
-| AWS IoT MQTT File Streams   | 1.1.0               | 06/30/2026 | https://github.com/aws/aws-iot-core-mqtt-file-streams-embedded-c/tree/v1.1.0    |
+| FreeRTOS Kernel             | 11.1.0              | 10/31/2026 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0                        |
+| FreeRTOS-Plus-TCP           | 4.1.1               | 10/31/2026 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.1.1                       |
+| coreMQTT                    | 2.3.0               | 10/31/2026 | https://github.com/FreeRTOS/coreMQTT/tree/v2.3.0                                |
+| coreHTTP                    | 3.1.0               | 10/31/2026 | https://github.com/FreeRTOS/coreHTTP/tree/v3.1.1                                |
+| corePKCS11                  | 3.6.1               | 10/31/2026 | https://github.com/FreeRTOS/corePKCS11/tree/v3.6.1                              |
+| coreJSON                    | 3.3.0               | 10/31/2026 | https://github.com/FreeRTOS/coreJSON/tree/v3.3.0                                |
+| coreSNTP                    | 1.3.1               | 10/31/2026 | https://github.com/FreeRTOS/coreSNTP/tree/v1.3.1                                |
+| Cellular Interface          | 1.4.0               | 10/31/2026 | https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.4.0             |
+| backoffAlgorithm            | 1.4.1               | 10/31/2026 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.4.1                        |
+| SigV4                       | 1.3.0               | 10/31/2026 | https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk/tree/v1.3.0               |
+| AWS IoT Device Shadow       | 1.4.1               | 10/31/2026 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.4.1       |
+| AWS IoT Device Defender     | 1.4.0               | 10/31/2026 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.4.0     |
+| AWS IoT Jobs                | 1.5.1               | 10/31/2026 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.5.1                |
+| AWS IoT Fleet Provisioning  | 1.2.1               | 10/31/2026 | https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk/tree/v1.2.1  |
+| AWS IoT MQTT File Streams   | 1.1.0               | 10/31/2026 | https://github.com/aws/aws-iot-core-mqtt-file-streams-embedded-c/tree/v1.1.0    |
 
 ## FreeRTOS LTS Versioning and Patches
 
