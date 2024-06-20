@@ -25,11 +25,6 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 | AWS IoT Fleet Provisioning  | 1.2.1               | 06/30/2026 | https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk/tree/v1.2.1  |
 | AWS IoT MQTT File Streams   | 1.1.0               | 06/30/2026 | https://github.com/aws/aws-iot-core-mqtt-file-streams-embedded-c/tree/v1.1.0    |
 
-## Upgrading to FreeRTOS 202406-LTS from a previous version of FreeRTOS LTS
-
-FreeRTOS 202406 LTS libraries are backward compatible with 202210.xx LTS, except
-AWS IoT OTA library. For AWS IoT OTA, refer to [Modular Over the Air Updates](https://freertos.org/freertos-core/over-the-air-updates/index.html).
-
 ## FreeRTOS LTS Versioning and Patches
 
 FreeRTOS LTS releases use a date-based versioning scheme (YYYYMM) followed by a patch sequential number (.XX).
