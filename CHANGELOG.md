@@ -4,7 +4,7 @@
 
 Long Term Support (LTS) release of the following libraries:
 * [FreeRTOS-Kernel V11.1.0](https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0)
-* [FreeRTOS-Plus-TCP V4.1.1](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.1.1)
+* [FreeRTOS-Plus-TCP V4.2.0](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.2.0)
 * [coreMQTT v2.3.0](https://github.com/FreeRTOS/coreMQTT/tree/v2.3.0)
 * [coreHTTP v3.1.0](https://github.com/FreeRTOS/coreHTTP/tree/v3.1.0)
 * [corePKCS11 v3.6.1](https://github.com/FreeRTOS/corePKCS11/tree/v3.6.1)
