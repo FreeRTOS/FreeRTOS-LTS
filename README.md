@@ -28,10 +28,12 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 ## Upgrading to FreeRTOS 202406-LTS from a previous version of FreeRTOS LTS
 
 FreeRTOS 202406 LTS libraries are backward compatible with 202210.xx LTS, except
-AWS IoT OTA library. AWS IoT OTA library is not included in the LTS 202406 release.
+AWS IoT OTA and FreeRTOS-Plus-TCP libraries. AWS IoT OTA library is not included in the LTS 202406 release.
 Instead, AWS IoT MQTT File Streams are included in this release, and we suggest user
 reference to [Modular Over the Air Updates](https://freertos.org/freertos-core/over-the-air-updates/index.html),
 which makes use of the AWS IoT MQTT File Streams library for OTA application design.
+For FreeRTOS-Plus-TCP, refer to [these instructions](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/blob/main/GettingStarted.md)
+on how to update your projects to use the new version.
 
 
 ## FreeRTOS LTS Versioning and Patches
