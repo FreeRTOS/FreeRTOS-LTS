@@ -1,4 +1,4 @@
-# ChangeLog for FreeRTOS 20246-LTS
+# ChangeLog for FreeRTOS 202406-LTS
 
 ## 202406.00-LTS (June 2024)
 
