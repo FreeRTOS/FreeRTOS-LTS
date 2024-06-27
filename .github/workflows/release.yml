@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.event.inputs.commit_id }}
       - name: Configure git identity
@@ -43,7 +43,7 @@ jobs:
       - name: Install ZIP tools
         run: sudo apt-get install zip unzip
       - name: Checkout code
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.event.inputs.commit_id }}
           path: FreeRTOS-LTS
@@ -65,7 +65,7 @@ jobs:
           ls FreeRTOSv${{ github.event.inputs.version_number }}
           diff -r -x "*.git*" FreeRTOSv${{ github.event.inputs.version_number }}/FreeRTOS-LTS/ ../FreeRTOS-LTS/
       - name: Create artifact of ZIP
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v2
         with:
           name: FreeRTOSv${{ github.event.inputs.version_number }}.zip
           path: zip-check/FreeRTOSv${{ github.event.inputs.version_number }}.zip
