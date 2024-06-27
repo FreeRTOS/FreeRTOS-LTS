@@ -27,7 +27,11 @@ Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 20
 
 ## Upgrading to FreeRTOS 202210-LTS from a previous version of FreeRTOS LTS
 
-Refer to https://freertos.org/lts-libraries.html on how to upgrade to FreeRTOS 202210 LTS
+FreeRTOS 202210 LTS libraries are backward compatible with 202012.xx LTS, other than
+the coreMQTT and FreeRTOS-Plus-TCP libraries. For FreeRTOS-Plus-TCP, refer
+to [these instructions](https://github.com/freertos/freertos-plus-tcp#upgrading-to-v300-and-above)
+on how to update your projects to use the new version. For coreMQTT, refer to
+[these instructions](https://github.com/FreeRTOS/coreMQTT/blob/main/MigrationGuide.md) for upgrading to newer version.
 
 ## FreeRTOS LTS Versioning and Patches
 
