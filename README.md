@@ -5,25 +5,42 @@ AWS also offers FreeRTOS Extended Maintenance Plan (EMP) that provides you with 
 
 ## FreeRTOS/FreeRTOS Long Term Support
 
-Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202012.05 LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202012-LTS) patch release. Learn more at https://freertos.org/lts-libraries.html.
+Libraries in this GitHub branch (also listed below) are part of the FreeRTOS 202406-LTS release. Learn more at https://freertos.org/lts-libraries.html.
 
-| Library                     | Version             | LTS Until  | LTS Repo URL                                                                |
-|-------------------------    |---------------------|------------|---------------------------------------------------------------------------  |
-| FreeRTOS Kernel             | 10.4.3-LTS-Patch-3  | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V10.4.3-LTS-Patch-3        |
-| FreeRTOS-Plus-TCP           | 2.3.2-LTS-Patch-2   | 03/31/2023 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V2.3.2-LTS-Patch-2       |
-| coreMQTT                    | 1.1.0               | 03/31/2023 | https://github.com/FreeRTOS/coreMQTT/tree/v1.1.0                            |
-| coreHTTP                    | 2.0.0               | 03/31/2023 | https://github.com/FreeRTOS/coreHTTP/tree/v2.0.0                            |
-| corePKCS11                  | 3.0.0               | 03/31/2023 | https://github.com/FreeRTOS/corePKCS11/tree/v3.0.0                          |
-| coreJSON                    | 3.0.0               | 03/31/2023 | https://github.com/FreeRTOS/coreJSON/tree/v3.0.0                            |
-| backoffAlgorithm            | 1.0.0               | 03/31/2023 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.0.0                    |
-| AWS IoT Device Shadow       | 1.0.2               | 03/31/2023 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.0.2   |
-| AWS IoT Device Defender     | 1.1.0               | 03/31/2023 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.1.0 |
-| AWS IoT Jobs                | 1.1.0               | 03/31/2023 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.1.0            |
-| AWS IoT Over-the-air Update | 3.0.0               | 03/31/2023 | https://github.com/aws/ota-for-aws-iot-embedded-sdk/tree/v3.0.0             |
+| Library                     | Version             | LTS Until  | LTS Repo URL                                                                    |
+|-------------------------    |---------------------|------------|-------------------------------------------------------------------------------  |
+| FreeRTOS Kernel             | 11.1.0              | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0                        |
+| FreeRTOS-Plus-TCP           | 4.2.0               | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.2.0                       |
+| coreMQTT                    | 2.3.0               | 06/30/2026 | https://github.com/FreeRTOS/coreMQTT/tree/v2.3.0                                |
+| coreHTTP                    | 3.1.1               | 06/30/2026 | https://github.com/FreeRTOS/coreHTTP/tree/v3.1.1                                |
+| corePKCS11                  | 3.6.1               | 06/30/2026 | https://github.com/FreeRTOS/corePKCS11/tree/v3.6.1                              |
+| coreJSON                    | 3.3.0               | 06/30/2026 | https://github.com/FreeRTOS/coreJSON/tree/v3.3.0                                |
+| coreSNTP                    | 1.3.1               | 06/30/2026 | https://github.com/FreeRTOS/coreSNTP/tree/v1.3.1                                |
+| Cellular Interface          | 1.4.0               | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/tree/v1.4.0             |
+| backoffAlgorithm            | 1.4.1               | 06/30/2026 | https://github.com/FreeRTOS/backoffAlgorithm/tree/v1.4.1                        |
+| SigV4                       | 1.3.0               | 06/30/2026 | https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk/tree/v1.3.0               |
+| AWS IoT Device Shadow       | 1.4.1               | 06/30/2026 | https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/tree/v1.4.1       |
+| AWS IoT Device Defender     | 1.4.0               | 06/30/2026 | https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk/tree/v1.4.0     |
+| AWS IoT Jobs                | 1.5.1               | 06/30/2026 | https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/tree/v1.5.1                |
+| AWS IoT Fleet Provisioning  | 1.2.1               | 06/30/2026 | https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk/tree/v1.2.1  |
+| AWS IoT MQTT File Streams   | 1.1.0               | 06/30/2026 | https://github.com/aws/aws-iot-core-mqtt-file-streams-embedded-c/tree/v1.1.0    |
+
+## Upgrading to FreeRTOS 202406-LTS from a previous version of FreeRTOS LTS
+
+FreeRTOS 202406 LTS libraries are backward compatible with 202210.xx LTS, except
+AWS IoT OTA and FreeRTOS-Plus-TCP libraries. AWS IoT OTA library is not included in the LTS 202406 release.
+Instead, AWS IoT MQTT File Streams are included in this release, and we suggest user
+reference to [Modular Over the Air Updates](https://freertos.org/freertos-core/over-the-air-updates/index.html),
+which makes use of the AWS IoT MQTT File Streams library for OTA application design.
+For FreeRTOS-Plus-TCP, refer to [these instructions](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/blob/main/GettingStarted.md)
+on how to update your projects to use the new version.
+
 
 ## FreeRTOS LTS Versioning and Patches
 
-FreeRTOS LTS releases use a date-based versioning scheme (YYYYMM) followed by a patch sequential number (.XX). For example, FreeRTOS 202012.02 LTS means the second patch to the December-2020 FreeRTOS LTS release. You can review the [CHANGELOG](./CHANGELOG.md) and subscribe to [GitHub notifications](https://docs.github.com/en/free-pro-team@latest/github/managing-subscriptions-and-notifications-on-github/about-notifications) to receive information on patches or other updates to this repository.   
+FreeRTOS LTS releases use a date-based versioning scheme (YYYYMM) followed by a patch sequential number (.XX).
+For example, FreeRTOS 202406.01 LTS means the first patch to the June-2024 FreeRTOS LTS release.
+You can review the [CHANGELOG](./CHANGELOG.md) and subscribe to [GitHub notifications](https://docs.github.com/en/free-pro-team@latest/github/managing-subscriptions-and-notifications-on-github/about-notifications) to receive information on patches or other updates to this repository.   
 
 ## Security
 
@@ -32,4 +49,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT License. See the [LICENSE](LICENSE.md) file.
-

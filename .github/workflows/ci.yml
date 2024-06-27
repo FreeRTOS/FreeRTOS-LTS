@@ -7,11 +7,11 @@ jobs:
   git-secrets:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4.1.1
         with:
           submodules: recursive
       - name: Checkout awslabs/git-secrets
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.1.1
         with:
           repository: awslabs/git-secrets
           ref: master
@@ -22,3 +22,26 @@ jobs:
         run: |
           git-secrets --register-aws
           git-secrets --scan
+
+  link-verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone This Repo
+        uses: actions/checkout@v4.1.1
+      - name: Link Verification
+        uses: FreeRTOS/CI-CD-Github-Actions/link-verifier@main
+
+  verify-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Run manifest verifier
+        uses: FreeRTOS/CI-CD-GitHub-Actions/manifest-verifier@main
+        with:
+          path: ./
+          fail-on-incorrect-version: true
+

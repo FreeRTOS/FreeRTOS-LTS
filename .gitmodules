@@ -36,7 +36,18 @@
 	path = aws/device-defender-for-aws-iot-embedded-sdk
 	branch = main
 	url = https://github.com/aws/Device-Defender-for-AWS-IoT-embedded-sdk.git
-[submodule "aws/ota-for-aws-iot-embedded-sdk"]
-	path = aws/ota-for-aws-iot-embedded-sdk
-	branch = main
-	url = https://github.com/aws/ota-for-aws-iot-embedded-sdk.git
+[submodule "aws/fleet-provisioning-for-aws-iot-embedded-sdk"]
+	path = aws/fleet-provisioning-for-aws-iot-embedded-sdk
+	url = https://github.com/aws/Fleet-Provisioning-for-AWS-IoT-embedded-sdk.git
+[submodule "FreeRTOS/coreSNTP"]
+	path = FreeRTOS/coreSNTP
+	url = https://github.com/FreeRTOS/coreSNTP
+[submodule "aws/sigv4-for-aws-iot-embedded-sdk"]
+	path = aws/sigv4-for-aws-iot-embedded-sdk
+	url = https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk.git
+[submodule "FreeRTOS/FreeRTOS-Cellular-Interface"]
+	path = FreeRTOS/FreeRTOS-Cellular-Interface
+	url = https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface.git
+[submodule "aws/aws-iot-core-mqtt-file-streams-embedded-c"]
+	path = aws/aws-iot-core-mqtt-file-streams-embedded-c
+	url = https://github.com/aws/aws-iot-core-mqtt-file-streams-embedded-c
