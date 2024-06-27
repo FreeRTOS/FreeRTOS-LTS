@@ -5,7 +5,7 @@ AWS also offers FreeRTOS Extended Maintenance Plan (EMP) that provides you with 
 
 ## FreeRTOS/FreeRTOS Long Term Support
 
-Libraries in this GitHub branch (also listed below) are part of the [FreeRTOS 202210-LTS](https://github.com/FreeRTOS/FreeRTOS-LTS/tree/202210-LTS) release. Learn more at https://freertos.org/lts-libraries.html.
+Libraries in this GitHub branch (also listed below) are part of the FreeRTOS 202406-LTS release. Learn more at https://freertos.org/lts-libraries.html.
 
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                    |
 |-------------------------    |---------------------|------------|-------------------------------------------------------------------------------  |
