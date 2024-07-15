@@ -10,8 +10,8 @@ Libraries in this GitHub branch (also listed below) are part of the FreeRTOS 202
 | Library                     | Version             | LTS Until  | LTS Repo URL                                                                    |
 |-------------------------    |---------------------|------------|-------------------------------------------------------------------------------  |
 | FreeRTOS Kernel             | 11.1.0              | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0                        |
-| FreeRTOS-Plus-TCP           | 4.2.1               | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.2.1                       |
-| coreMQTT                    | 2.3.0               | 06/30/2026 | https://github.com/FreeRTOS/coreMQTT/tree/v2.3.0                                |
+| FreeRTOS-Plus-TCP           | 4.2.2               | 06/30/2026 | https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.2.2                       |
+| coreMQTT                    | 2.3.1               | 06/30/2026 | https://github.com/FreeRTOS/coreMQTT/tree/v2.3.1                                |
 | coreHTTP                    | 3.1.1               | 06/30/2026 | https://github.com/FreeRTOS/coreHTTP/tree/v3.1.1                                |
 | corePKCS11                  | 3.6.1               | 06/30/2026 | https://github.com/FreeRTOS/corePKCS11/tree/v3.6.1                              |
 | coreJSON                    | 3.3.0               | 06/30/2026 | https://github.com/FreeRTOS/coreJSON/tree/v3.3.0                                |
