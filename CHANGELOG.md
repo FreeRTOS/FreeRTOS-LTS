@@ -1,5 +1,11 @@
 # ChangeLog for FreeRTOS 202406-LTS
 
+## 202406.01-LTS (July 2024)
+
+Update the following libraries in the Long Term Support (LTS) patch release:
+* [FreeRTOS-Plus-TCP V4.2.2](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.2.2)
+* [coreMQTT v2.3.1](https://github.com/FreeRTOS/coreMQTT/tree/v2.3.1)
+
 ## 202406.00-LTS (June 2024)
 
 Long Term Support (LTS) release of the following libraries:
