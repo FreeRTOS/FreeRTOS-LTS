@@ -79,7 +79,7 @@ jobs:
           ls FreeRTOSv"$VERSION_NUMBER"
           diff -r -x "*.git*" FreeRTOSv"$VERSION_NUMBER"/FreeRTOS-LTS/ ../FreeRTOS-LTS/
       - name: Create artifact of ZIP
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: FreeRTOSv${{ github.event.inputs.version_number }}.zip
           path: zip-check/FreeRTOSv${{ github.event.inputs.version_number }}.zip
@@ -100,7 +100,7 @@ jobs:
           draft: false
           prerelease: false
       - name: Download ZIP artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: FreeRTOSv${{ github.event.inputs.version_number }}.zip
       - name: Upload Release Asset
