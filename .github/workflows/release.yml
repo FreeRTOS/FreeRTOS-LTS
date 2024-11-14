@@ -27,11 +27,14 @@ jobs:
           git tag ${{ github.event.inputs.version_number }} -a -m "Release ${{ github.event.inputs.version_number }}"
           git push origin --tags
       - name: Verify tag on remote
+        env:
+          VERSION_NUMBER: ${{ github.event.inputs.version_number }}
+          COMMIT_ID: ${{ github.event.inputs.commit_id }}
         run: |
-          git tag -d ${{ github.event.inputs.version_number }}
+          git tag -d "$VERSION_NUMBER"
           git remote update
-          git checkout tags/${{ github.event.inputs.version_number }}
-          git diff ${{ github.event.inputs.commit_id }} tags/${{ github.event.inputs.version_number }}
+          git checkout tags/"$VERSION_NUMBER"
+          git diff "$COMMIT_ID" tags/"$VERSION_NUMBER"
   create-zip:
     needs: tag-commit
     name: Create ZIP and verify package for release asset.
@@ -50,22 +53,28 @@ jobs:
           cd FreeRTOS-LTS
           git submodule update --init --checkout --recursive
       - name: Create ZIP
+        env:
+          VERSION_NUMBER: ${{ github.event.inputs.version_number }}
         run: |
-          zip -r FreeRTOSv${{ github.event.inputs.version_number }}.zip FreeRTOS-LTS -x "*.git*"
+          zip -r FreeRTOSv"$VERSION_NUMBER".zip FreeRTOS-LTS -x "*.git*"
           ls ./
       - name: Validate created ZIP
+        env:
+          VERSION_NUMBER: ${{ github.event.inputs.version_number }}
         run: |
           mkdir zip-check
-          mv FreeRTOSv${{ github.event.inputs.version_number }}.zip zip-check
+          mv FreeRTOSv$VERSION_NUMBER".zip zip-check
           cd zip-check
-          unzip FreeRTOSv${{ github.event.inputs.version_number }}.zip -d FreeRTOSv${{ github.event.inputs.version_number }}
-          ls FreeRTOSv${{ github.event.inputs.version_number }}
-          diff -r -x "*.git*" FreeRTOSv${{ github.event.inputs.version_number }}/FreeRTOS-LTS/ ../FreeRTOS-LTS/
+          unzip FreeRTOSv"$VERSION_NUMBER".zip -d FreeRTOSv"$VERSION_NUMBER"
+          ls FreeRTOSv"$VERSION_NUMBER"
+          diff -r -x "*.git*" FreeRTOSv"$VERSION_NUMBER"/FreeRTOS-LTS/ ../FreeRTOS-LTS/
       - name: Create artifact of ZIP
+        env:
+          VERSION_NUMBER: ${{ github.event.inputs.version_number }}
         uses: actions/upload-artifact@v2
         with:
-          name: FreeRTOSv${{ github.event.inputs.version_number }}.zip
-          path: zip-check/FreeRTOSv${{ github.event.inputs.version_number }}.zip
+          name: FreeRTOSv"$VERSION_NUMBER".zip
+          path: zip-check/FreeRTOSv"$VERSION_NUMBER".zip
   create-release:
     needs: create-zip
     name: Create Release and Upload Release Asset
