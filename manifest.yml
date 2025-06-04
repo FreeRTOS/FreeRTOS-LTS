@@ -10,7 +10,7 @@ dependencies:
       url: "https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
       path: "FreeRTOS/FreeRTOS-Kernel"
   - name: "FreeRTOS-Plus-TCP"
-    version: "V4.2.2"
+    version: "V4.3.2"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP.git"
@@ -34,7 +34,7 @@ dependencies:
       url: "https://github.com/FreeRTOS/coreMQTT.git"
       path: "FreeRTOS/coreMQTT"
   - name: "corePKCS11"
-    version: "v3.6.1"
+    version: "v3.6.3"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/corePKCS11.git"
