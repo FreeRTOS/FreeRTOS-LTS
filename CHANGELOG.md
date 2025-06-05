@@ -3,7 +3,7 @@
 ## 202406.02-LTS (June 2025)
 
 Update the following libraries in the Long Term Support (LTS) patch release:
-* [FreeRTOS-Plus-TCP V4.3.2](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.3.2)
+* [FreeRTOS-Plus-TCP V4.2.3](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.2.3)
 * [corePKCS11 v3.6.3](https://github.com/FreeRTOS/corePKCS11/tree/v3.6.3)
 
 ## 202406.01-LTS (July 2024)
