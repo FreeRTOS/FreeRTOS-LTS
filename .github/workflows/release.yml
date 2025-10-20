@@ -10,6 +10,10 @@ on:
         description: 'Release Version (Eg, 202012.00-LTS)'
         required: true
 
+# Workflow permissions block
+permissions:
+  contents: write # This grants write access to repository content, including pushing commits/tags and creating releases.
+
 jobs:
   tag-commit:
     name: Tag commit
@@ -85,6 +89,7 @@ jobs:
           path: zip-check/FreeRTOSv${{ github.event.inputs.version_number }}.zip
   create-release:
     permissions:
+      contents: write
       id-token: write
     needs: create-zip
     name: Create Release and Upload Release Asset
