@@ -1,5 +1,10 @@
 # ChangeLog for FreeRTOS 202406-LTS
 
+## 202406.04-LTS (October 2025)
+
+Update the following libraries in the Long Term Support (LTS) patch release:
+* [FreeRTOS-Plus-TCP V4.2.5](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/tree/V4.2.5)
+
 ## 202406.03-LTS (June 2025)
 
 Update the following libraries in the Long Term Support (LTS) patch release:
