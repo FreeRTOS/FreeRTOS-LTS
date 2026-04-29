@@ -29,9 +29,14 @@ Libraries in this GitHub branch (also listed below) are part of the FreeRTOS 202
 
 FreeRTOS 202604 LTS libraries are backward compatible with 202406.xx LTS, except
 coreMQTT, coreSNTP, and AWS IoT Jobs libraries which have had major version updates.
-For coreMQTT, refer to the [coreMQTT migration guide](https://github.com/FreeRTOS/coreMQTT) for upgrading from v2.x to v5.x.
+For coreMQTT, refer to the [coreMQTT migration guide](https://github.com/FreeRTOS/coreMQTT/blob/v5.0.2/MigrationGuide.md) for upgrading from v2.x to v5.x.
 For AWS IoT Jobs, refer to the [Jobs migration guide](https://github.com/aws/Jobs-for-AWS-IoT-embedded-sdk/blob/v2.0.1/MigrationGuide.md) for upgrading from v1.x to v2.x.
-For coreSNTP, refer to the [coreSNTP repository](https://github.com/FreeRTOS/coreSNTP) for upgrading from v1.x to v2.x.
+For coreSNTP, refer to the [coreSNTP migration guide](https://github.com/FreeRTOS/coreSNTP/blob/v2.0.0/MigrationGuide.md) for upgrading from v1.x to v2.x.
+
+**Note:** AWS IoT OTA library is not included in the FreeRTOS LTS releases since 202212-LTS.
+AWS IoT MQTT File Streams is included instead, and we suggest users reference
+[Modular Over the Air Updates](https://freertos.org/freertos-core/over-the-air-updates/index.html),
+which makes use of the AWS IoT MQTT File Streams library for OTA application design.
 
 
 ## FreeRTOS LTS Versioning and Patches
