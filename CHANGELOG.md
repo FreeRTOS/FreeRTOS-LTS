@@ -1,5 +1,9 @@
 # ChangeLog for FreeRTOS 202604-LTS
 
+## 202604.01-LTS (August 2026)
+Update the following libraries in the Long Term Support (LTS) patch release:
+* [FreeRTOS-Kernel V11.3.1](https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.3.1)
+
 ## 202604.00-LTS (April 2026)
 
 Long Term Support (LTS) release of the following libraries:
